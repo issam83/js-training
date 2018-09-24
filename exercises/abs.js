@@ -7,9 +7,20 @@
  * see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/abs
  *
  * @notions Functions, Ternary
- */
+ */  
 
 // Your code :
+function abs (argument) {
+
+ 	if (argument >= 0){
+ 	    return argument
+ 	}
+
+ 	else {
+ 		return argument * -1
+ 	} 
+ 	
+ }
 
 //* Begin of tests
 const assert = require('assert')

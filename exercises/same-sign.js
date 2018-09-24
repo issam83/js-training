@@ -8,6 +8,31 @@
  */
 
 // Your code :
+function sameSign (numbers1, numbers2){
+	let sign1 = null;
+	let sign2 = null;
+
+   if (numbers1>0){
+   		sign1 = 1
+   }
+   else if (numbers1<0){
+   	    sign1 = -1
+   } else {
+   	  sign1 = 0
+   }
+
+
+   if (numbers2>0) {
+   	  sign2 = 1
+   }
+   else if (numbers2<0) {
+   	sign2 = -1
+   } else {
+   	  sign2 = 0
+   }
+
+   return sign1 == sign2
+}
 
 //* Begin of tests
 const assert = require('assert')
